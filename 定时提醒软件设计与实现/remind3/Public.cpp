@@ -1,0 +1,27 @@
+// Public.cpp: implementation of the Public class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "remind3.h"
+#include "Public.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+Public::Public()
+{
+
+}
+
+Public::~Public()
+{
+	
+}

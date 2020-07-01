@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: remind3 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/remind3.res" /d "NDEBUG" /d "_AFXDLL" "C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\remind3\remind3.rc"" 
+Creating temporary file "C:\Users\dudu\AppData\Local\Temp\RSPFBEE.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/remind3.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\remind3\Public.cpp"
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\remind3\remind3.cpp"
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\remind3\remind3Dlg.cpp"
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\remind3\REMINDBOX.cpp"
+]
+Creating command line "cl.exe @C:\Users\dudu\AppData\Local\Temp\RSPFBEE.tmp" 
+Creating temporary file "C:\Users\dudu\AppData\Local\Temp\RSPFBFF.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/remind3.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\remind3\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\dudu\AppData\Local\Temp\RSPFBFF.tmp" 
+Creating temporary file "C:\Users\dudu\AppData\Local\Temp\RSPFC00.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/remind3.pdb" /machine:I386 /out:"Release/remind3.exe" 
+".\Release\Public.obj"
+".\Release\remind3.obj"
+".\Release\remind3Dlg.obj"
+".\Release\REMINDBOX.obj"
+".\Release\StdAfx.obj"
+".\Release\remind3.res"
+".\sqlite3.lib"
+]
+Creating command line "link.exe @C:\Users\dudu\AppData\Local\Temp\RSPFC00.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Public.cpp
+remind3.cpp
+remind3Dlg.cpp
+REMINDBOX.cpp
+Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\remind3\remind3Dlg.cpp(53) : warning C4715: 'CRemind3Dlg::OnShowTask' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+remind3.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

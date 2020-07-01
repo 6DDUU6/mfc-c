@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MusicPlayer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MusicPlayer.res" /d "_DEBUG" /d "_AFXDLL" "C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\MusicPlayer\MusicPlayer.rc"" 
+Creating temporary file "C:\Users\dudu\AppData\Local\Temp\RSP88A1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MusicPlayer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\MusicPlayer\MusicPlayerDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\dudu\AppData\Local\Temp\RSP88A1.tmp" 
+Creating temporary file "C:\Users\dudu\AppData\Local\Temp\RSP88A2.tmp" with contents
+[
+bass.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MusicPlayer.pdb" /debug /machine:I386 /out:"Debug/MusicPlayer.exe" /pdbtype:sept 
+".\Debug\MusicPlayer.obj"
+".\Debug\MusicPlayerDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MusicPlayer.res"
+".\bass.lib"
+]
+Creating command line "link.exe @C:\Users\dudu\AppData\Local\Temp\RSP88A2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+MusicPlayerDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+MusicPlayer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
